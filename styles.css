@@ -1,0 +1,85 @@
+*{
+    padding: 0; margin: 0; box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.mess{
+    /* background-color: red; */
+    min-width: 70%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.input{
+    position: fixed;
+    bottom: 0;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: auto;
+    background-color: black;
+}
+
+input[type="text"]{
+    outline: none;
+    border: 1px solid #3b5998;
+    max-width: 100%;
+    min-width: 60%;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    background-color: #3b5998;
+    border: none;
+    color: white;
+}
+
+p, span{
+    color: white;
+    padding: 8px 10px;
+}
+
+.inform{
+    text-align: center;
+}
+
+.mess-send {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.mess-send p{
+    text-align: end;
+    background-color: #3b5998;
+    border-radius: 10px;
+}
+
+.mess-receive{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.mess-receive p{
+    background-color: #fff;
+    border-radius: 10px;
+    color: black;
+}
